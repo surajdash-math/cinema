@@ -5153,7 +5153,7 @@
       ],
       "placements": [
         {
-          "status": "Watchlist",
+          "status": "Watched",
           "region": "International",
           "type": "Anime",
           "sourceOrder": 211
@@ -12063,6 +12063,456 @@
       "languages": [],
       "poster": "https://m.media-amazon.com/images/M/MV5BMjkyYzhkZjgtODhiNi00Yjk3LWJkY2ItMTQ0NTlhMDljYjY5XkEyXkFqcGc@._V1_.jpg",
       "notesHtml": ""
+    },
+    {
+      "id": "tt8228288",
+      "kind": "title",
+      "imdbId": "tt8228288",
+      "sourceUrl": "https://www.imdb.com/title/tt8228288/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt8228288/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "Cinema",
+          "sourceOrder": 492
+        }
+      ],
+      "title": "The Platform",
+      "year": 2019,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjUyZjNmYmMtNjA1My00ZWMyLTliZGQtODgzZjIxM2Y4NGI1XkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt7939766",
+      "kind": "title",
+      "imdbId": "tt7939766",
+      "sourceUrl": "https://www.imdb.com/title/tt7939766/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt7939766/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "Cinema",
+          "sourceOrder": 493
+        }
+      ],
+      "title": "I’m Thinking of Ending Things",
+      "year": 2020,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTgxNWU0MGMtMDI1Ny00NDIwLTllYzYtZDkyOTVmYmFhZGM0XkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt3748172",
+      "kind": "title",
+      "imdbId": "tt3748172",
+      "sourceUrl": "https://www.imdb.com/title/tt3748172/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt3748172/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "Cinema",
+          "sourceOrder": 494
+        }
+      ],
+      "title": "Gerald’s Game",
+      "year": 2017,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDA2ZjU5ZWMtMmQ4OS00ZTQzLWIwOWMtYTBmOTljYTIwNjM3XkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt11703050",
+      "kind": "title",
+      "imdbId": "tt11703050",
+      "sourceUrl": "https://www.imdb.com/title/tt11703050/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt11703050/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "Cinema",
+          "sourceOrder": 495
+        }
+      ],
+      "title": "The House",
+      "year": 2022,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BYWU3Nzc3MGYtMGYyZi00ZmJkLWFhODQtZTk0OTkyM2ViY2ExXkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt11286314",
+      "kind": "title",
+      "imdbId": "tt11286314",
+      "sourceUrl": "https://www.imdb.com/title/tt11286314/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt11286314/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "Cinema",
+          "sourceOrder": 496
+        }
+      ],
+      "title": "Don’t Look Up",
+      "year": 2021,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjhhNWFjNzctYTJjOS00MDc0LThiNjItZmM0ZDVmMWViY2UzXkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt3398228",
+      "kind": "title",
+      "imdbId": "tt3398228",
+      "sourceUrl": "https://www.imdb.com/title/tt3398228/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt3398228/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "TV series",
+          "sourceOrder": 497
+        }
+      ],
+      "title": "BoJack Horseman",
+      "year": 2014,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BZmMwMDlkNTEtMmQzZS00ODQ0LWJlZmItOTgwYWMwZGM4MzFiXkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt11680642",
+      "kind": "title",
+      "imdbId": "tt11680642",
+      "sourceUrl": "https://www.imdb.com/title/tt11680642/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt11680642/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "TV series",
+          "sourceOrder": 498
+        }
+      ],
+      "title": "Pantheon",
+      "year": 2022,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGM2NjRjMzAtZjY5Ni00MWVkLWJlMTQtMWVmOWE1N2M2ZWM0XkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt7520794",
+      "kind": "title",
+      "imdbId": "tt7520794",
+      "sourceUrl": "https://www.imdb.com/title/tt7520794/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt7520794/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "TV series",
+          "sourceOrder": 499
+        }
+      ],
+      "title": "Russian Doll",
+      "year": 2019,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWRlM2ExMDEtOWJhZS00YTM4LWE5MDAtMWQ1NWFkOWRiODQ5XkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt5580146",
+      "kind": "title",
+      "imdbId": "tt5580146",
+      "sourceUrl": "https://www.imdb.com/title/tt5580146/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt5580146/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "TV series",
+          "sourceOrder": 500
+        }
+      ],
+      "title": "Maniac",
+      "year": 2018,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDA0OWI5YzgtOGYzNy00ODdhLTk0ZGQtNDY4ODFiNTAyOGQ4XkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt11639414",
+      "kind": "title",
+      "imdbId": "tt11639414",
+      "sourceUrl": "https://www.imdb.com/title/tt11639414/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt11639414/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "TV series",
+          "sourceOrder": 501
+        }
+      ],
+      "title": "The Midnight Gospel",
+      "year": 2020,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2UyMTdlMzItYTY1MC00NWExLWI1NDQtYTcxZGJlZmIzZTk4XkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt29629770",
+      "kind": "title",
+      "imdbId": "tt29629770",
+      "sourceUrl": "https://www.imdb.com/title/tt29629770/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt29629770/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "TV series",
+          "sourceOrder": 502
+        }
+      ],
+      "title": "Carol & the End of the World",
+      "year": 2023,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTg1ODU4ZjItMWZkOC00MDZkLTkxZjAtYWRiOTNhZTA1YzYzXkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt8880894",
+      "kind": "title",
+      "imdbId": "tt8880894",
+      "sourceUrl": "https://www.imdb.com/title/tt8880894/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt8880894/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "TV series",
+          "sourceOrder": 503
+        }
+      ],
+      "title": "Living with Yourself",
+      "year": 2019,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BOWRiNzE2YTQtYzc3NS00MzZmLWFmZTAtMTBiZmEwYzlkYzczXkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt8550732",
+      "kind": "title",
+      "imdbId": "tt8550732",
+      "sourceUrl": "https://www.imdb.com/title/tt8550732/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt8550732/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "TV series",
+          "sourceOrder": 504
+        }
+      ],
+      "title": "KAOS",
+      "year": 2024,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjczMDQ5MTEtYzY1Ni00M2FlLWI2NGMtYTYyZjM1ZGNkNGQyXkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt2085059",
+      "kind": "title",
+      "imdbId": "tt2085059",
+      "sourceUrl": "https://www.imdb.com/title/tt2085059/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt2085059/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "TV series",
+          "sourceOrder": 505
+        }
+      ],
+      "title": "Black Mirror",
+      "year": 2011,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BODcxMWI2NDMtYTc3NC00OTZjLWFmNmUtM2NmY2I1ODkxYzczXkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt21962590",
+      "kind": "title",
+      "imdbId": "tt21962590",
+      "sourceUrl": "https://www.imdb.com/title/tt21962590/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt21962590/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "TV series",
+          "sourceOrder": 506
+        }
+      ],
+      "title": "Joko Anwar’s Nightmares and Daydreams",
+      "year": 2024,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmE3ZjM0MmQtYWNlNS00ZjRjLWIxZjYtMmE5MDQzNWI0ZTc1XkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt15614372",
+      "kind": "title",
+      "imdbId": "tt15614372",
+      "sourceUrl": "https://www.imdb.com/title/tt15614372/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt15614372/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "TV series",
+          "sourceOrder": 507
+        }
+      ],
+      "title": "Tear Along the Dotted Line",
+      "year": 2021,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWI1ZjA5MWQtODMwMy00OTM5LWFiZWYtZGEyMDRhNDNjMTM5XkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt27440006",
+      "kind": "title",
+      "imdbId": "tt27440006",
+      "sourceUrl": "https://www.imdb.com/title/tt27440006/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt27440006/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "TV series",
+          "sourceOrder": 508
+        }
+      ],
+      "title": "This World Can’t Tear Me Down",
+      "year": 2023,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDU2OTJmNzgtZDc2Zi00Y2IwLTliNmQtNWFlODkzMTk0ZDJlXkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
+    },
+    {
+      "id": "tt13315324",
+      "kind": "title",
+      "imdbId": "tt13315324",
+      "sourceUrl": "https://www.imdb.com/title/tt13315324/",
+      "sourceUrls": [
+        "https://www.imdb.com/title/tt13315324/"
+      ],
+      "placements": [
+        {
+          "status": "Watched",
+          "region": "International",
+          "type": "TV series",
+          "sourceOrder": 509
+        }
+      ],
+      "title": "The Woman in the House Across the Street from the Girl in the Window",
+      "year": 2022,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [],
+      "languages": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWY0OTdlMGEtZDgyMS00OTRiLWIxNmQtZTA2ZmQ3ZjQwOTcwXkEyXkFqcGc@._V1_.jpg",
+      "notesHtml": ""
     }
   ],
   "sections": [
@@ -12148,7 +12598,7 @@
       "status": "Watchlist",
       "region": "International",
       "type": "Anime",
-      "count": 3
+      "count": 2
     },
     {
       "status": "Watched",
@@ -12184,13 +12634,13 @@
       "status": "Watched",
       "region": "International",
       "type": "Cinema",
-      "count": 72
+      "count": 77
     },
     {
       "status": "Watched",
       "region": "International",
       "type": "TV series",
-      "count": 20
+      "count": 33
     },
     {
       "status": "Watched",
@@ -12214,7 +12664,7 @@
       "status": "Watched",
       "region": "International",
       "type": "Anime",
-      "count": 2
+      "count": 3
     }
   ]
 }
