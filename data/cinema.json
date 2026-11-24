@@ -22,7 +22,7 @@
           "sourceOrder": 1
         },
         {
-          "status": "Watchlist",
+          "status": "Watched",
           "region": "Indian",
           "type": "Cinema",
           "sourceOrder": 34
@@ -955,7 +955,7 @@
       ],
       "placements": [
         {
-          "status": "Watchlist",
+          "status": "Watched",
           "region": "Indian",
           "type": "Cinema",
           "sourceOrder": 39
@@ -1091,7 +1091,7 @@
       ],
       "placements": [
         {
-          "status": "Watchlist",
+          "status": "Watched",
           "region": "Indian",
           "type": "Cinema",
           "sourceOrder": 44
@@ -1480,7 +1480,7 @@
       ],
       "placements": [
         {
-          "status": "Watchlist",
+          "status": "Watched",
           "region": "Indian",
           "type": "Cinema",
           "sourceOrder": 58
@@ -13947,7 +13947,7 @@
       "status": "Watchlist",
       "region": "Indian",
       "type": "Cinema",
-      "count": 34
+      "count": 30
     },
     {
       "status": "Watchlist",
@@ -14025,7 +14025,7 @@
       "status": "Watched",
       "region": "Indian",
       "type": "Cinema",
-      "count": 133
+      "count": 137
     },
     {
       "status": "Watched",
