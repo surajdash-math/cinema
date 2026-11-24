@@ -170,7 +170,7 @@
   }
   function renderCountries(branch) {
     if (state.region !== "International" || state.reference) branch = records.filter(r => inBranch(r, state.status, "International", state.type));
-    const names = [...new Set(branch.flatMap(countriesOf))].sort(collator.compare);
+    const names = [...new Set(branch.flatMap(countriesOf))].filter(country => country !== "India").sort(collator.compare);
     if (state.country && !names.includes(state.country) && state.country !== "unknown") state.country = "";
     const adjectives = {Italy:"Italian",Spain:"Spanish",France:"French",Germany:"German",Iran:"Iranian",Japan:"Japanese","United States":"American","United Kingdom":"British",India:"Indian","South Korea":"South Korean",Sweden:"Swedish",Canada:"Canadian",Mexico:"Mexican",Denmark:"Danish",Poland:"Polish"};
     const options = [["", "International — all countries"], ...names.map(c => [c,`${adjectives[c] || c} cinema (${branch.filter(r => countriesOf(r).includes(c)).length})`])];
