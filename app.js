@@ -6,10 +6,10 @@
     statuses: $("#status-tabs"), regions: $("#region-tabs"), types: $("#type-choices"),
     references: $("#reference-choices"), typeSelect: $("#type-select"), grid: $("#poster-grid"),
     title: $("#collection-title"), path: $("#collection-path"), count: $("#result-count"),
-    search: $("#title-search"), sort: $("#sort-select"), dialog: $("#detail-dialog"),
+    search: $("#title-search"), sort: $("#sort-select"), country: $("#country-select"), dialog: $("#detail-dialog"),
     detail: $("#dialog-content"), loading: $("#load-state"), source: $("#source-line")
   };
-  const state = { status: "Watched", region: "International", type: "Cinema", reference: null, query: "", sort: "title" };
+  const state = { status: "Watched", region: "International", type: "Cinema", reference: null, query: "", sort: "title", country: "" };
   const collator = new Intl.Collator("en", { sensitivity: "base", numeric: true });
   const statusOrder = ["Watched", "Watchlist"];
   const regionOrder = ["International", "Indian"];
@@ -112,6 +112,7 @@
   }
 
   function chooseBranch(status, region) {
+    state.country = "";
     state.status = status;
     if (region !== undefined) state.region = region;
     state.reference = null;
@@ -159,6 +160,22 @@
     }
     dom.typeSelect.replaceChildren(...options);
     dom.typeSelect.value = state.reference ? `ref:${state.reference}` : `type:${state.type}`;
+  }
+
+  function countriesOf(record) {
+    const aliases = {"West Germany":"Germany", "Weimar Republic":"Germany", "Kingdom of Italy":"Italy", "People's Republic of China":"China"};
+    const found = values(record.countries).map(c => aliases[c] || c);
+    if (!found.length && placements(record).some(p => p.region === "Indian")) found.push("India");
+    return [...new Set(found)];
+  }
+  function renderCountries(branch) {
+    const names = [...new Set(branch.flatMap(countriesOf))].sort(collator.compare);
+    if (state.country && !names.includes(state.country) && state.country !== "unknown") state.country = "";
+    const options = [["", "All countries"], ...names.map(c => [c,c])];
+    if (branch.some(r => !countriesOf(r).length)) options.push(["unknown", "Country not listed"]);
+    dom.country.replaceChildren(...options.map(([value,label]) => { const o=element("option", "", label);o.value=value;return o; }));
+    dom.country.value=state.country;
+    dom.country.closest("label").hidden=Boolean(state.reference) || state.region !== "International";
   }
 
   function posterMark(kind) {
@@ -238,10 +255,12 @@
     renderNavigation();
     const group = referenceGroups.find(item => item.key === state.reference);
     let visible = group ? group.records : records.filter(record => inBranch(record, state.status, state.region, state.type));
+    renderCountries(visible);
+    if (!group && state.country) visible = visible.filter(r => state.country === "unknown" ? !countriesOf(r).length : countriesOf(r).includes(state.country));
     const total = visible.length;
     const terms = normalize(state.query.trim()).split(/\s+/).filter(Boolean);
     visible = visible.filter(record => {
-      const haystack = normalize([titleOf(record), record.originalTitle || "", ...values(record.directors)].join(" "));
+      const haystack = normalize([titleOf(record), record.originalTitle || "", ...values(record.directors), ...countriesOf(record)].join(" "));
       return terms.every(term => haystack.includes(term));
     }).sort((a, b) => {
       if (state.sort !== "title") {
@@ -364,6 +383,7 @@
   }
 
   dom.search.addEventListener("input", () => { state.query = dom.search.value; render(); });
+  dom.country.addEventListener("change", () => { state.country = dom.country.value; render(); });
   dom.sort.addEventListener("change", () => { state.sort = dom.sort.value; render(); });
   dom.typeSelect.addEventListener("change", () => {
     const value = dom.typeSelect.value;

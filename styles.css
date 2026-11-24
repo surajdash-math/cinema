@@ -318,3 +318,12 @@ dialog::backdrop { background: #080909c7; backdrop-filter: blur(3px); }
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .film-card:hover .poster-frame, .film-card:focus-visible .poster-frame { transform: none; }
 }
+
+/* Country filtering shares the catalogue toolbar on every screen size. */
+.search-sort { flex-wrap: wrap; justify-content: flex-end; }
+.country-field select { max-width: 190px; }
+@media(max-width:680px) { .country-field { max-width:100%; } }
+
+.region-country { display:grid; gap:12px; flex-shrink:0; }
+.country-field { display:flex; align-items:center; gap:12px; font-size:13px; }
+.country-field[hidden] { display:none; }
