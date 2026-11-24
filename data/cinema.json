@@ -5299,7 +5299,7 @@
       ],
       "placements": [
         {
-          "status": "Watchlist",
+          "status": "Watched",
           "region": "International",
           "type": "Theatre Acts-Musicals",
           "sourceOrder": 196
@@ -5309,7 +5309,9 @@
       "year": null,
       "directors": [],
       "originalTitle": null,
-      "countries": [],
+      "countries": [
+        "United States"
+      ],
       "languages": [],
       "poster": null,
       "notesHtml": ""
@@ -10772,7 +10774,7 @@
       "placements": [
         {
           "status": "Watched",
-          "region": "Indian",
+          "region": "International",
           "type": "Theatre Acts-Musicals",
           "sourceOrder": 395
         }
@@ -14812,6 +14814,955 @@
       "languages": [],
       "poster": "https://m.media-amazon.com/images/M/MV5BYmNkMGUzZjYtMWU1MS00NjUxLWJmMGQtY2I2MGEyMjc1N2I0XkEyXkFqcGc@._V1_.jpg",
       "notesHtml": "<p>a bruising family epic (banned at home).</p>"
+    },
+    {
+      "id": "musical-3fee338077f9b670",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Evita_(musical)",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Evita_(musical)"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 539
+        }
+      ],
+      "title": "Evita",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Argentina",
+        "United Kingdom"
+      ],
+      "languages": [],
+      "poster": "https://upload.wikimedia.org/wikipedia/en/6/6b/Evita_1978_Prince_Edward_Theatre.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "notesHtml": "<p>Peronism, cult of personality, and media myth-making.</p>"
+    },
+    {
+      "id": "musical-4ad3997d72ee921c",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/1776_(musical)",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/1776_(musical)"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 540
+        }
+      ],
+      "title": "1776",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "United States"
+      ],
+      "languages": [],
+      "poster": "https://upload.wikimedia.org/wikipedia/en/a/af/1776-musical.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "notesHtml": "<p>Messy nation-building and who gets a voice at the founding table.</p>"
+    },
+    {
+      "id": "musical-e6a49f7d8d76f702",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Assassins_(musical)",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Assassins_(musical)"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 541
+        }
+      ],
+      "title": "Assassins",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "United States"
+      ],
+      "languages": [],
+      "poster": "https://upload.wikimedia.org/wikipedia/en/1/12/Original_Assassins_poster_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "notesHtml": "<p>Dark collage of American political violence and the “American dream.”</p>"
+    },
+    {
+      "id": "musical-a926da65ee995540",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bloody_Bloody_Andrew_Jackson",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Bloody_Bloody_Andrew_Jackson"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 542
+        }
+      ],
+      "title": "Bloody Bloody Andrew Jackson",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "United States"
+      ],
+      "languages": [],
+      "poster": "https://upload.wikimedia.org/wikipedia/en/1/1b/Bloodybloody.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "notesHtml": "<p>Pop-punk skewering of populism and Indigenous dispossession.</p>"
+    },
+    {
+      "id": "musical-745446be74155758",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chess_(musical)",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Chess_(musical)"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 543
+        }
+      ],
+      "title": "Chess",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "United States",
+        "United Kingdom"
+      ],
+      "languages": [],
+      "poster": "https://upload.wikimedia.org/wikipedia/en/6/63/Original_Cast_Recording_-_Chess.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "notesHtml": "<p>Ideology, propaganda, and human cost of superpower rivalry.</p>"
+    },
+    {
+      "id": "musical-0f886bf8f49639c7",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/That_Bloody_Woman",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/That_Bloody_Woman"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 544
+        }
+      ],
+      "title": "That Bloody Woman",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "New Zealand"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Punk-rock suffrage story of Kate Sheppard vs. the establishment.</p>"
+    },
+    {
+      "id": "musical-50f46cdeb9ffb70f",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Keating!",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Keating!"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 545
+        }
+      ],
+      "title": "Keating!",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Australia"
+      ],
+      "languages": [],
+      "poster": "https://upload.wikimedia.org/wikipedia/en/a/af/Keating_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "notesHtml": "<p>Brash, witty portrait of reformist politics and media spectacle.</p>"
+    },
+    {
+      "id": "musical-879cffa503e8e21f",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Last_Empress_(musical)",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/The_Last_Empress_(musical)"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 546
+        }
+      ],
+      "title": "The Last Empress",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "South Korea"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Imperial intrigue and resistance during Japan’s encroachment.</p>"
+    },
+    {
+      "id": "musical-bb5ed85d2b731c2e",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://www.korea.net/Events/Performances/view?articleId=12846",
+      "sourceUrls": [
+        "https://www.korea.net/Events/Performances/view?articleId=12846"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 547
+        }
+      ],
+      "title": "Hero",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "South Korea"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Anti-colonial resistance (Ahn Jung-geun) framed as national awakening.</p>"
+    },
+    {
+      "id": "musical-4dd5805bc8ebd84d",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/1789%3A_Les_Amants_de_la_Bastille",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/1789%3A_Les_Amants_de_la_Bastille"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 548
+        }
+      ],
+      "title": "1789: Les Amants de la Bastille",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "France"
+      ],
+      "languages": [],
+      "poster": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/db/1789-les-amants-de-la-bastille_2425.jpg/330px-1789-les-amants-de-la-bastille_2425.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "notesHtml": "<p>Popular-revolution lens on class and power.</p>"
+    },
+    {
+      "id": "musical-f72a0b3cab9aa33c",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Cradle_Will_Rock",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/The_Cradle_Will_Rock"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 549
+        }
+      ],
+      "title": "The Cradle Will Rock",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "United States"
+      ],
+      "languages": [],
+      "poster": "https://upload.wikimedia.org/wikipedia/en/7/76/The-Cradle-Will-Rock-1938-FE.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "notesHtml": "<p>Pro-labor agitprop about corporate capture and corruption.</p>"
+    },
+    {
+      "id": "musical-3d96d240d55af41a",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Billy_Elliot_the_Musical",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Billy_Elliot_the_Musical"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 550
+        }
+      ],
+      "title": "Billy Elliot",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "United Kingdom"
+      ],
+      "languages": [],
+      "poster": "https://upload.wikimedia.org/wikipedia/en/e/ed/Billyelliot-logo.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "notesHtml": "<p>Miners’ strike, class mobility, and community fracture.</p>"
+    },
+    {
+      "id": "musical-2ba080c191511437",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Made_in_Dagenham_(musical)",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Made_in_Dagenham_(musical)"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 551
+        }
+      ],
+      "title": "Made in Dagenham",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "United Kingdom"
+      ],
+      "languages": [],
+      "poster": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/9b/Made_in_Dagenham_logo_%28musical%29.jpg/330px-Made_in_Dagenham_logo_%28musical%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "notesHtml": "<p>Women’s equal-pay strike reshaping labor law.</p>"
+    },
+    {
+      "id": "musical-1df00eeffc9e0c8c",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Urinetown",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Urinetown"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 552
+        }
+      ],
+      "title": "Urinetown",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "United States"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Razor-sharp satire of privatization, scarcity, and authoritarian “solutions.”</p>"
+    },
+    {
+      "id": "musical-f2fcc07c8e2e0d30",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Strike%21_%28musical%29",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Strike%21_%28musical%29"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 553
+        }
+      ],
+      "title": "Strike!",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Canada"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Winnipeg General Strike and immigrant/worker solidarity.</p>"
+    },
+    {
+      "id": "musical-ff79e6c22913e6b8",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/%C3%93pera_do_Malandro",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/%C3%93pera_do_Malandro"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 554
+        }
+      ],
+      "title": "Ópera do Malandro",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Brazil"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Cabaret-tinged takedown of corruption under dictatorship.</p>"
+    },
+    {
+      "id": "musical-4b422fcb1f120409",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://www.chicobuarque.com.br/obra/teatro/2",
+      "sourceUrls": [
+        "https://www.chicobuarque.com.br/obra/teatro/2"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 555
+        }
+      ],
+      "title": "Gota D’Água",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Brazil"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Medea re-set in a favela; debt, developers, and dispossession.</p>"
+    },
+    {
+      "id": "musical-ed8aa0702b9f6f3b",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Linie_1",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Linie_1"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 556
+        }
+      ],
+      "title": "Linie 1",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Germany"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Berlin’s U-Bahn as a chorus of precarity, migration, and inequality.</p>"
+    },
+    {
+      "id": "musical-dbacbe69bec1d49a",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://www.dagolldagom.com/es/flor-de-nit-1992",
+      "sourceUrls": [
+        "https://www.dagolldagom.com/es/flor-de-nit-1992"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 557
+        }
+      ],
+      "title": "Flor de Nit",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Spain"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Pre-Civil-War Barcelona; nightlife as class and political battleground. Catalonia, Spain.</p>"
+    },
+    {
+      "id": "musical-7c382089085a1114",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cabaret_(musical)",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Cabaret_(musical)"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 558
+        }
+      ],
+      "title": "Cabaret",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Germany"
+      ],
+      "languages": [],
+      "poster": "https://upload.wikimedia.org/wikipedia/en/7/7f/Cabaret_1966_Musical_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "notesHtml": "<p>Nightclub mirror to creeping fascism and apathy. Weimar Germany.</p>"
+    },
+    {
+      "id": "musical-c06cdf3fcaafecd7",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Sound_of_Music",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/The_Sound_of_Music"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 559
+        }
+      ],
+      "title": "The Sound of Music",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Austria"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Personal defiance against Nazism’s rise.</p>"
+    },
+    {
+      "id": "musical-ed0aa273d2093614",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Threepenny_Opera",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/The_Threepenny_Opera"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 560
+        }
+      ],
+      "title": "Threepenny Opera",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Germany"
+      ],
+      "languages": [],
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Dreigroschenoper.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "notesHtml": "<p>Brechtian blast at bourgeois morality and capitalism.</p>"
+    },
+    {
+      "id": "musical-0fa3cef9748e6567",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rise_and_Fall_of_the_City_of_Mahagonny",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Rise_and_Fall_of_the_City_of_Mahagonny"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 561
+        }
+      ],
+      "title": "Mahagonny",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Germany"
+      ],
+      "languages": [],
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/0/05/Bundesarchiv_Bild_146-2005-0119%2C_Kurt_Weill.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "notesHtml": "<p>Utopia built on profit that devours its citizens.</p>"
+    },
+    {
+      "id": "musical-3fbe83bc3498589a",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ragtime_%28musical%29",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Ragtime_%28musical%29"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 562
+        }
+      ],
+      "title": "Ragtime",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "United States"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Race, class, immigration, and the machinery of American modernity.</p>"
+    },
+    {
+      "id": "musical-767822011bd64f01",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Parade_%28musical%29",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Parade_%28musical%29"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 563
+        }
+      ],
+      "title": "Parade",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "United States"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Antisemitism, media frenzy, and mob justice in the American South.</p>"
+    },
+    {
+      "id": "musical-a80801f9a2e95f87",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hairspray_%28musical%29",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Hairspray_%28musical%29"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 564
+        }
+      ],
+      "title": "Hairspray",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "United States"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Desegregation and youth activism wrapped in pop exuberance.</p>"
+    },
+    {
+      "id": "musical-5d7aaaed67e3c917",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/South_Pacific_%28musical%29",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/South_Pacific_%28musical%29"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 565
+        }
+      ],
+      "title": "South Pacific",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "United States"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Interracial love confronting learned prejudice. Pacific setting.</p>"
+    },
+    {
+      "id": "musical-719f97b5046af4f9",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Miss_Saigon",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Miss_Saigon"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 566
+        }
+      ],
+      "title": "Miss Saigon",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Vietnam",
+        "United States"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>War, imperial gaze, and human fallout.</p>"
+    },
+    {
+      "id": "musical-a88e10e1d26e720b",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fiddler_on_the_Roof",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Fiddler_on_the_Roof"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 567
+        }
+      ],
+      "title": "Fiddler on the Roof",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Russia"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Tradition vs. change under pogrom-era oppression. Imperial Russia.</p>"
+    },
+    {
+      "id": "musical-f12afcfd85809b59",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/A_Man_of_No_Importance_%28musical%29",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/A_Man_of_No_Importance_%28musical%29"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 568
+        }
+      ],
+      "title": "A Man of No Importance",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Ireland"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Sexuality, church authority, and community hypocrisy.</p>"
+    },
+    {
+      "id": "musical-cb69572a32e46811",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hadestown",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Hadestown"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 569
+        }
+      ],
+      "title": "Hadestown",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "United States"
+      ],
+      "languages": [],
+      "poster": "https://upload.wikimedia.org/wikipedia/en/7/75/Hadestown_musical_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "notesHtml": "<p>Labor vs. capital, climate anxiety, and propaganda through song.</p>"
+    },
+    {
+      "id": "musical-3886af8ecd9b17db",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/American_Idiot_%28musical%29",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/American_Idiot_%28musical%29"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 570
+        }
+      ],
+      "title": "American Idiot",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "United States"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Post-9/11 disillusionment with war, media, and consumer culture.</p>"
+    },
+    {
+      "id": "musical-9422141717bdb16c",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Starmania_%28musical%29",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Starmania_%28musical%29"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 571
+        }
+      ],
+      "title": "Starmania",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "France",
+        "Canada"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Pop-rock dystopia of celebrity politics and terrorism. France/Québec.</p>"
+    },
+    {
+      "id": "musical-bc37d8e882e4710c",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://uni-freiburg.de/musicallexikon/hinterm-horizont/",
+      "sourceUrls": [
+        "https://uni-freiburg.de/musicallexikon/hinterm-horizont/"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 572
+        }
+      ],
+      "title": "Hinterm Horizont",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Germany"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>East/West divide, Stasi surveillance, and personal freedom.</p>"
+    },
+    {
+      "id": "musical-436ccd5608a2e854",
+      "kind": "link",
+      "imdbId": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kazablan",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Kazablan"
+      ],
+      "placements": [
+        {
+          "status": "Watchlist",
+          "region": "International",
+          "type": "Theatre Acts-Musicals",
+          "sourceOrder": 573
+        }
+      ],
+      "title": "Kazablan",
+      "year": null,
+      "directors": [],
+      "originalTitle": null,
+      "countries": [
+        "Israel"
+      ],
+      "languages": [],
+      "poster": null,
+      "notesHtml": "<p>Ethnic tensions, class, and belonging in Jaffa.</p>"
     }
   ],
   "sections": [
@@ -14885,7 +15836,7 @@
       "status": "Watchlist",
       "region": "International",
       "type": "Theatre Acts-Musicals",
-      "count": 2
+      "count": 36
     },
     {
       "status": "Watchlist",
@@ -14927,7 +15878,7 @@
       "status": "Watched",
       "region": "Indian",
       "type": "Theatre Acts-Musicals",
-      "count": 1
+      "count": 0
     },
     {
       "status": "Watched",
@@ -14957,7 +15908,7 @@
       "status": "Watched",
       "region": "International",
       "type": "Theatre Acts-Musicals",
-      "count": 1
+      "count": 3
     },
     {
       "status": "Watched",

@@ -168,12 +168,16 @@
     if (!found.length && placements(record).some(p => p.region === "Indian")) found.push("India");
     return [...new Set(found)];
   }
+  const nationality = {Italy:"Italian",Spain:"Spanish",France:"French",Germany:"German",Iran:"Iranian",Japan:"Japanese","United States":"American","United Kingdom":"British",India:"Indian","South Korea":"South Korean",Sweden:"Swedish",Canada:"Canadian",Mexico:"Mexican",Denmark:"Danish",Poland:"Polish",Argentina:"Argentine",Brazil:"Brazilian",Austria:"Austrian",Australia:"Australian","New Zealand":"New Zealand",Vietnam:"Vietnamese",Russia:"Russian",Ireland:"Irish",Israel:"Israeli"};
+  function countryCategoryLabel(country) {
+    const categories = {Cinema:"cinema", Anime:"anime", "TV series":"TV series", "Short Films":"short films", Documentaries:"documentaries", "Animated documentaries":"animated documentaries", "Theatre Acts-Musicals":"theatre and musicals"};
+    return `${nationality[country] || country} ${categories[state.type] || state.type}`;
+  }
   function renderCountries(branch) {
     if (state.region !== "International" || state.reference) branch = records.filter(r => inBranch(r, state.status, "International", state.type));
     const names = [...new Set(branch.flatMap(countriesOf))].filter(country => country !== "India").sort(collator.compare);
     if (state.country && !names.includes(state.country) && state.country !== "unknown") state.country = "";
-    const adjectives = {Italy:"Italian",Spain:"Spanish",France:"French",Germany:"German",Iran:"Iranian",Japan:"Japanese","United States":"American","United Kingdom":"British",India:"Indian","South Korea":"South Korean",Sweden:"Swedish",Canada:"Canadian",Mexico:"Mexican",Denmark:"Danish",Poland:"Polish"};
-    const options = [["", "International — all countries"], ...names.map(c => [c,`${adjectives[c] || c} cinema (${branch.filter(r => countriesOf(r).includes(c)).length})`])];
+    const options = [["", "International — all countries"], ...names.map(c => [c,`${countryCategoryLabel(c)} (${branch.filter(r => countriesOf(r).includes(c)).length})`])];
     if (branch.some(r => !countriesOf(r).length)) options.push(["unknown", "Country not listed"]);
     dom.country.replaceChildren(...options.map(([value,label]) => { const o=element("option", "", label);o.value=value;return o; }));
     if (state.region !== "International") {
@@ -278,9 +282,7 @@
       }
       return collator.compare(titleOf(a), titleOf(b)) || collator.compare(a.id, b.id);
     });
-    const nationality = {Italy:"Italian",Spain:"Spanish",France:"French",Germany:"German",Iran:"Iranian",Japan:"Japanese","United States":"American","United Kingdom":"British",India:"Indian","South Korea":"South Korean"};
-    const countryLabel = nationality[state.country] || state.country;
-    dom.title.textContent = group ? group.label : state.country && state.country !== "unknown" ? `${countryLabel} ${state.type === "Cinema" ? "cinema" : state.type}` : state.type || "Cinema";
+    dom.title.textContent = group ? group.label : state.country && state.country !== "unknown" ? countryCategoryLabel(state.country) : state.type || "Cinema";
     dom.path.textContent = group ? "Reference" : [state.status, state.region, state.country === "unknown" ? "Country not listed" : state.country].filter(Boolean).join(" / ");
     dom.count.textContent = terms.length ? `${visible.length} of ${total} entries` : `${total} ${total === 1 ? "entry" : "entries"}`;
     dom.grid.replaceChildren(...visible.map(card));
