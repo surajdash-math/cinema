@@ -321,9 +321,10 @@ dialog::backdrop { background: #080909c7; backdrop-filter: blur(3px); }
 
 /* Country filtering shares the catalogue toolbar on every screen size. */
 .search-sort { flex-wrap: wrap; justify-content: flex-end; }
-.country-field select { max-width: 190px; }
+.country-field select { max-width: 245px; padding:8px 28px 8px 10px; border:1px solid var(--line); border-radius:3px; }
+.country-field select.is-active { color:var(--text); background-color:var(--surface); border-color:var(--accent); }
 @media(max-width:680px) { .country-field { max-width:100%; } }
 
-.region-country { display:grid; gap:12px; flex-shrink:0; }
+.region-country { display:flex; flex-wrap:wrap; align-items:center; gap:12px; flex-shrink:0; }
 .country-field { display:flex; align-items:center; gap:12px; font-size:13px; }
 .country-field[hidden] { display:none; }

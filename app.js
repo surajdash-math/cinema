@@ -123,7 +123,7 @@
 
   function renderNavigation() {
     dom.statuses.replaceChildren(...statusOrder.map(status => makeChoice("status-tab", status, countBranch(status), !state.reference && state.status === status, () => chooseBranch(status))));
-    dom.regions.replaceChildren(...availableRegions(state.status).map(region => makeChoice("region-tab", region, countBranch(state.status, region), state.region === region, () => chooseBranch(state.status, region))));
+    dom.regions.replaceChildren(...availableRegions(state.status).filter(region => region !== "International").map(region => makeChoice("region-tab", region, countBranch(state.status, region), state.region === region, () => chooseBranch(state.status, region))));
     dom.regions.hidden = Boolean(state.reference);
     const types = branchTypes();
     dom.types.replaceChildren(...types.map(type => makeChoice("type-choice", type, countBranch(state.status, state.region, type), !state.reference && state.type === type, () => {
@@ -140,7 +140,7 @@
     const options = [];
     if (types.length) {
       const branch = element("optgroup");
-      branch.label = [state.status, state.region].filter(Boolean).join(" / ");
+      branch.label = [state.status, state.region, state.country === "unknown" ? "Country not listed" : state.country].filter(Boolean).join(" / ");
       for (const type of types) {
         const option = element("option", "", `${type} (${countBranch(state.status, state.region, type)})`);
         option.value = `type:${type}`;
@@ -169,13 +169,19 @@
     return [...new Set(found)];
   }
   function renderCountries(branch) {
+    if (state.region !== "International" || state.reference) branch = records.filter(r => inBranch(r, state.status, "International", state.type));
     const names = [...new Set(branch.flatMap(countriesOf))].sort(collator.compare);
     if (state.country && !names.includes(state.country) && state.country !== "unknown") state.country = "";
-    const options = [["", "All countries"], ...names.map(c => [c,c])];
+    const adjectives = {Italy:"Italian",Spain:"Spanish",France:"French",Germany:"German",Iran:"Iranian",Japan:"Japanese","United States":"American","United Kingdom":"British",India:"Indian","South Korea":"South Korean",Sweden:"Swedish",Canada:"Canadian",Mexico:"Mexican",Denmark:"Danish",Poland:"Polish"};
+    const options = [["", "International — all countries"], ...names.map(c => [c,`${adjectives[c] || c} cinema (${branch.filter(r => countriesOf(r).includes(c)).length})`])];
     if (branch.some(r => !countriesOf(r).length)) options.push(["unknown", "Country not listed"]);
     dom.country.replaceChildren(...options.map(([value,label]) => { const o=element("option", "", label);o.value=value;return o; }));
-    dom.country.value=state.country;
-    dom.country.closest("label").hidden=Boolean(state.reference) || state.region !== "International";
+    if (state.region !== "International") {
+      const prompt = element("option", "", "International"); prompt.value = "choose-international"; prompt.disabled = true; dom.country.prepend(prompt);
+    }
+    dom.country.value=state.region === "International" ? state.country : "choose-international";
+    dom.country.classList.toggle("is-active", state.region === "International" && !state.reference);
+    dom.country.closest("label").hidden=Boolean(state.reference);
   }
 
   function posterMark(kind) {
@@ -272,8 +278,10 @@
       }
       return collator.compare(titleOf(a), titleOf(b)) || collator.compare(a.id, b.id);
     });
-    dom.title.textContent = group ? group.label : state.type || "Cinema";
-    dom.path.textContent = group ? "Reference" : [state.status, state.region].filter(Boolean).join(" / ");
+    const nationality = {Italy:"Italian",Spain:"Spanish",France:"French",Germany:"German",Iran:"Iranian",Japan:"Japanese","United States":"American","United Kingdom":"British",India:"Indian","South Korea":"South Korean"};
+    const countryLabel = nationality[state.country] || state.country;
+    dom.title.textContent = group ? group.label : state.country && state.country !== "unknown" ? `${countryLabel} ${state.type === "Cinema" ? "cinema" : state.type}` : state.type || "Cinema";
+    dom.path.textContent = group ? "Reference" : [state.status, state.region, state.country === "unknown" ? "Country not listed" : state.country].filter(Boolean).join(" / ");
     dom.count.textContent = terms.length ? `${visible.length} of ${total} entries` : `${total} ${total === 1 ? "entry" : "entries"}`;
     dom.grid.replaceChildren(...visible.map(card));
     $("#empty-state").hidden = visible.length > 0;
@@ -383,7 +391,7 @@
   }
 
   dom.search.addEventListener("input", () => { state.query = dom.search.value; render(); });
-  dom.country.addEventListener("change", () => { state.country = dom.country.value; render(); });
+  dom.country.addEventListener("change", () => { const country = dom.country.value; state.region = "International"; state.reference = null; ensureBranch(); state.country = country; render(); });
   dom.sort.addEventListener("change", () => { state.sort = dom.sort.value; render(); });
   dom.typeSelect.addEventListener("change", () => {
     const value = dom.typeSelect.value;
@@ -414,7 +422,7 @@
     try { localStorage.setItem("cinema-theme", theme); } catch { /* Theme still works when storage is unavailable. */ }
   });
 
-  fetch("./data/cinema.json")
+  fetch("./data/cinema.json?v=country-filter-20261124b", { cache: "no-cache" })
     .then(response => {
       if (!response.ok) throw new Error(`Collection request failed (${response.status})`);
       return response.json();
